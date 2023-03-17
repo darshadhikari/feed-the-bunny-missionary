@@ -81,10 +81,15 @@ function setup() {
   button2 = createImg('cut_btn.png');
   button2.position(30,420);
   button2.size(50,50);
-
-
-
+ 
+ 
+ 
   button2.mouseClicked(drop);
+
+
+
+
+
 
   ellipseMode(RADIUS);
 }
@@ -117,6 +122,11 @@ function draw()
 
     bunny.changeAnimation('eating');
 
+
+
+
+
+    
   }
   
   if(collide(fruit,bubble,40) == true)
